@@ -1,0 +1,19 @@
+<h1>Demon Slayer Personajes</h1>
+<hr>
+
+<div class="row">
+
+  <div class="col" >
+    <demonSlayer-list-charater
+    (onDeleteCharacter)="onDeleteCharacterMain($event)"
+    [listCharacter]="charactersList">
+  </demonSlayer-list-charater>
+  </div>
+
+  <div class="col" >
+    <demonSlayer-add-character
+    (onNewCharacter)="onNewCharacterMain($event)">
+  </demonSlayer-add-character>
+  </div>
+
+</div>
